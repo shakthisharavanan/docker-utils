@@ -1,6 +1,6 @@
-FROM nvcr.io/nvidia/tensorrt:22.08-py3
+FROM nvcr.io/nvidia/tensorrt:21.06-py3
 
-LABEL description="Tensorrt 8.4 docker image"
+LABEL description="Tensorrt 7.2.3.4 docker image"
 LABEL maintainer="shakthi.94@icloud.com"
 
 RUN apt-get update && apt-get upgrade -y

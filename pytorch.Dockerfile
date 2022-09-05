@@ -3,7 +3,7 @@ FROM nvidia/cuda:11.1.1-cudnn8-devel-ubuntu20.04
 LABEL description="Pytorch v1.8.2+cu111 docker image"
 LABEL maintainer="shakthi.94@icloud.com"
 
-RUN apt-get update && apt-get upgrade -y
+RUN apt-get update -y
 
 RUN apt-get install -y sudo python3-dev python3-pip
 
